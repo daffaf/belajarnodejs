@@ -1,0 +1,3 @@
+let : nilai dari variable let dapat berubah jika mendeklarasikan variable yang sama
+const : berbeda dengan let nilai dari variable const tidak dapat berubah
+var : hampir mirip dengan let nilai nya dapat berubah jika ada variable yang sama setelahnya namun var memiliki scope yang berbeda dari let dan const s
