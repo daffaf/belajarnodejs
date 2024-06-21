@@ -11,7 +11,6 @@ router.post("/upload/single", single, async(req, res) => {
     }
     try {
         const result = await handleUpload(req.file.buffer,req.file.originalname);
-
         res.status(201).json(result)
     } catch (error) {
         console.log(error)
